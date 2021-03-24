@@ -1,0 +1,24 @@
+{
+  "name": "javajam",
+  "version": "1.0.0",
+  "description": "web programming lab",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chairielazizi/JavaJam-Web-Programming.git"
+  },
+  "author": "chairiel azizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chairielazizi/JavaJam-Web-Programming/issues"
+  },
+  "homepage": "https://github.com/chairielazizi/JavaJam-Web-Programming#readme"
+}
