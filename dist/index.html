@@ -5,25 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaJam Coffee House</title>
-    <link rel="stylesheet" href="css/javajam.css">
+
+    <!-- <link rel="stylesheet" href="../css/javajam.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        .backg {
+            background-color: rgba(70, 152, 247, 0.849);
+            background-image: url(images/blue3.jpg);
+            background-repeat: round;
+        }
+        .backg2 {
+            background-color: rgb(245, 239, 153);
+            background-image: url(images/blue.jpg);
+        }
+        .text1 {
+            color: azure;
+        }
+    </style>
 </head>
-<body>
-    <div id="wrapper">
+<body class="backg2">
+    <div class="container backg rounded shadow p-3 mb-5">
         <header>
-            <h1>JavaJam Coffee House</h1>
+            <h1 class="text-center">JavaJam Coffee House</h1>
         </header>
     
         <nav>
-            <ul>
-                <li><a href="index.html">Main</a>&nbsp;</li>
-                <li><a href="menu.html">Menu</a>&nbsp;</li>
-                <li><a href="music.html">Music</a>&nbsp;</li>
-                <li><a href="jobs.html">Jobs</a>&nbsp;</li>
+            <ul class="nav justify-content-center nav-tabs font-weight-bold bg-dark rounded mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link active ">Main</a>&nbsp;</li>
+                <li class="nav-item"><a href="menu.html" class="nav-link text">Menu</a>&nbsp;</li>
+                <li class="nav-item"><a href="music.html" class="nav-link text">Music</a>&nbsp;</li>
+                <li class="nav-link"><a href="jobs.html" class="nav-item text">Jobs</a>&nbsp;</li>
             </ul>
         </nav>
         
         <main>
-            <img src="images/windingroad.jpg" alt="winding road through the woods" align="right" width="400" height="300">
+            <img src="../../Lab_3/images/windingroad.jpg" alt="winding road through the woods" align="right" width="400" height="300">
             <h2>Follow the Winding Road to JavaJam</h2>
             <p>We're a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in 
                 our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at 
@@ -43,12 +60,15 @@
             </div>
         </main>
     
-        <footer>
+        <footer class="container text-center font-italic bg-light rounded">
                 <p>
                     Copyright &copy; 2021 JavaJam Coffee House
                     <br> yourfirstname@yourlastname.com
                 </p>
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
