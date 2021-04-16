@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --yellow: #fcebb6;
     --choc: #d2b48c;
     --lightyellow : #fef6c2;
@@ -7,18 +7,21 @@
 * {
     box-sizing: border-box;
 }
+header, nav, main,footer{
+    display: block;
+}
 
 body {
     background-color: var(--yellow);
     color: #221811;
     font-family: Verdana,Arial, Helvetica, sans-serif;
-    background-image: url(../images/background.gif);
+    background-image: url(../../Lab_3/images/background.gif);
 }
 
 header {
     background-color: var(--choc);
     height: 150px;
-    background-image: url(../images/javajamlogo.jpg);
+    background-image: url(../../Lab_3/images/javajamlogo.jpg);
     background-repeat: no-repeat;
     display: block;
 }
@@ -48,6 +51,10 @@ nav ul {
     padding-left: 0;
 }
 
+nav a:link{
+    text-decoration: none;
+}
+
 main {
     padding-left: 2em;
     padding-right: 2em;
@@ -55,7 +62,8 @@ main {
     display: block;
     background-color: var(--lightyellow);
     margin-left: 200px;
-    padding: 0 0 2em 0; /*trbl*/
+    padding: 0 0 2em 0; 
+    
 }
 
 footer {
@@ -66,6 +74,7 @@ footer {
     border-color: #221811;
     border-style: solid;
     display: block;
+    text-align: center;
 }
 
 h1 {
@@ -90,4 +99,18 @@ img {
     padding-left: 20%;
     padding-right: 20%;
 }
+ */
 
+ .backg {
+    background-color: rgba(70, 152, 247, 0.849);
+    background-image: url(../images/blue3.jpg);
+    background-repeat: round;
+    background-size: cover;
+}
+.backg2 {
+    background-color: rgb(245, 239, 153);
+    background-image: url(../images/blue.jpg);
+}
+.text1 {
+    color: azure;
+}
